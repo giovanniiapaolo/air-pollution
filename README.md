@@ -1,21 +1,22 @@
-![](https://github.com/giovanniiapaolo/simple-counter/blob/main/assets/images/banner.PNG)
-
-<a href="https://github.com/giovanniiapaolo/simple-counter/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/giovanniiapaolo/simple-counter"></a>
-<a href="https://github.com/giovanniiapaolo/simple-counter/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/giovanniiapaolo/simple-counter"></a>
+<a href="https://github.com/giovanniiapaolo/air-pollution/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/giovanniiapaolo/air-pollution"></a>
+<a href="https://github.com/giovanniiapaolo/air-pollution/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/giovanniiapaolo/air-pollution"></a>
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ## About
 
-Simple counter made with HTML CSS and JavaScript.
+While air quality has improved markedly over the past years, air pollution remains stubbornly high in many cities across Europe. This city air quality viewer allows citizens to see for themselves in an easy-to-use way how their city is doing compared to others on air pollution. It provides concrete and local information which can empower citizens towards their local authorities to address the issues.
 
-## Live demo
+## Live at
 
 https://giovanniiapaolo.github.io/air-pollution/
 
 ### Features
 
+-   awesome interactive maps
+-   real time aqi
 -   minimalistic design with no ads
 -   responsive
--   dark theme
+-   nord theme
 -   and much more
 
 ### Bug report or Feature request
