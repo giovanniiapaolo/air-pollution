@@ -9,7 +9,7 @@ Simple counter made with HTML CSS and JavaScript.
 
 ## Live demo
 
-https://giovanniiapaolo.github.io/simple-counter/
+https://giovanniiapaolo.github.io/air-pollution/
 
 ### Features
 
