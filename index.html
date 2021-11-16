@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Air pollution</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./src/img/favicon.png" type="image.png" />
+		<link rel="stylesheet" href="./dist/scss/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+			crossorigin=""
+		/>
+	</head>
+
+	<!-- Header -->
+
+	<body>
+		<main>
+			<div class="header">
+				<div class="title">
+					<h1>Air pollution</h1>
+					<p>Check the air pollution in your city</p>
+				</div>
+				<div class="form">
+					<form>
+						<input
+							id="input"
+							type="text"
+							placeholder="Search for any city"
+						/>
+						<button id="btn" type="button">
+							<i class="material-icons">search</i>
+						</button>
+						<button id="geo" type="button">
+							<i class="material-icons">location_on</i>
+						</button>
+					</form>
+				</div>
+			</div>
+
+			<!-- Section -->
+
+			<div class="search">
+				<div class="searchSection city">
+					<h3>City</h3>
+					<p id="city">Ottawa</p>
+				</div>
+				<div class="li"></div>
+				<div class="searchSection aqi">
+					<h3>Air Quality Index (AQI)</h3>
+					<p id="aqi">85</p>
+				</div>
+				<div class="li"></div>
+				<div class="searchSection health">
+					<h3>Health Implications</h3>
+					<p id="health">
+						Air quality is acceptable; however, for some pollutants
+						there may be a moderate health concern for a very small
+						number of people who are unusually sensitive to air
+						pollution.
+					</p>
+				</div>
+			</div>
+			<div id="mapid"></div>
+		</main>
+
+		<!-- JavaScript -->
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script
+			src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""
+		></script>
+		<script src="./dist/main.js"></script>
+	</body>
+</html>
