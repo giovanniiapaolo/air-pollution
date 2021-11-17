@@ -4,7 +4,7 @@
 
 ## About
 
-While air quality has improved markedly over the past years, air pollution remains stubbornly high in many cities across Europe. This city air quality viewer allows citizens to see for themselves in an easy-to-use way how their city is doing compared to others on air pollution. It provides concrete and local information which can empower citizens towards their local authorities to address the issues.
+While air quality has improved markedly over the past years, air pollution remains stubbornly high in many cities across Europe. This city air quality viewer allows citizens to see for themselves in an easy-to-use way how their city is doing compared to others on air pollution. It provides concrete and local information which can empower citizens towards their local authorities to address the issues. This will help all of us in achieving the EU’s zero pollution goals.
 
 ## Live at
 
@@ -33,4 +33,4 @@ If you wish to support further development and feel extra awesome, you can do so
 
 ### License
 
-The MIT License (MIT) - see [`LICENSE.md`](https://github.com/giovanniiapaolo/simple_counter/blob/main/LICENSE) for more details.
+The MIT License (MIT) - see [`LICENSE.md`](https://github.com/giovanniiapaolo/air-pollution/blob/main/LICENSE) for more details.
